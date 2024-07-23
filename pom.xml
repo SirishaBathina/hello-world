@@ -44,6 +44,11 @@
           <autoVersionSubmodules>true</autoVersionSubmodules>
         </configuration>
       </plugin>
+             <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>4.0.0.4121</version> <!-- specify the explicit version here -->
+      </plugin>
 
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
